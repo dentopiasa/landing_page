@@ -1,37 +1,35 @@
-* {
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+html {
+    height: 100%;
 }
 
+body {
+    background-color: black;
+    height: 100%;
+    margin: 0px;;
+}
 #flex-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
 }
 #flex-container .section {
     flex: 1 1 auto;
-    height: 230px;
+    width: 800px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
 }
+/*first section*/
 .one {
     color: white;
-    background-color: rgba(0, 0, 0, 0.756);
-}
-.two {
-   
-}
-.three {
-    background-color: lightgrey;
-}
-.four {
-    
+    background-color: rgba(229, 215, 215, 0.133);
 }
 ul {
     list-style: none;
     overflow: hidden;
-    padding: 0px;
-    background-color: rgba(0, 0, 0, 0.756);
-    color: white;
 }
 li {
     display: inline;
@@ -39,10 +37,38 @@ li {
     float: left;
     font-weight: bolder;
     font-size: larger;
+    padding-left: 14px;
 }
 .nav-right {
     float: right;
-    font-weight: normal;
-    font-size: medium;
+      
 }
-
+.title-container {
+    display: flex;
+    flex-direction: row;
+}
+.title-text {
+    flex: 1 1 auto;
+    width: 250px;
+}
+.title-logo {
+    flex: 1 1 auto;
+    display: inline-block;
+    width: 250px;
+}
+.logo {
+    height: 215px;
+    float: right;
+}
+/*second section*/
+.two {
+    background-color: white;
+}
+/*third section*/
+.three {
+    background-color: lightgrey;
+}
+/*fourth section*/
+.four {
+    background-color: white;
+}
