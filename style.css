@@ -5,7 +5,7 @@ html {
 body {
     background-color: black;
     height: 100%;
-    margin: 0px;;
+    margin: 0px;
 }
 #flex-container {
     display: flex;
@@ -97,7 +97,16 @@ li {
 
 /*third section*/
 .three {
+    
     background-color: lightgrey;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+.three-txt{
+    position: relative;
+    margin: 40px;
 }
 /*fourth section*/
 .four {
